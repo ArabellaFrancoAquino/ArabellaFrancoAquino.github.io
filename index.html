@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frankie's Order Form</title>
+	<link  rel = "stylesheet" type = "text/css" href = "frankies.css">
+  </head>
+  <script src = "frankies.js"></script>
+  <body>
+	<table>
+		<td>
+			<div class="menu-bar animate__animated animate__slideInLeft">
+				<table class="menu">
+					<th>
+						<h1>MENU<br>
+						<a>Select Wing's Flavor!</a></h1>
+						<input type="checkbox" id="fcb" class = "menu-input" onclick = "menu()">| Classic Buffalo |</input><br><br>
+						<input type="checkbox" id="se" class = "menu-input" onclick = "menu()">| Salted Egg |</input><br><br>
+						<input type="checkbox" id="hg" class = "menu-input" onclick = "menu()">| Honey Garlic |</input><br><br>
+						<input type="checkbox" id="gp" class = "menu-input" onclick = "menu()">| Garlic Parmesan |</input><br><br>
+						<input type="checkbox" id="hm" class = "menu-input" onclick = "menu()">| Honey Mustard |</input><br><br>
+						<input type="checkbox" id="sap" class = "menu-input" onclick = "menu()">| Salt And Pepper |</input><br><br>
+						<input type="checkbox" id="cj" class = "menu-input" onclick = "menu()">| Caribbean Jerk |</input><br><br>
+						<input type="checkbox" id="hbbq" class = "menu-input" onclick = "menu()">| Hickory BBQ |</input><br><br>
+						<input type="checkbox" id="cb" class = "menu-input" onclick = "menu()">| Chessy Bacon |</input><br><br>
+						<input type="checkbox" id="sbbq" class = "menu-input" onclick = "menu()">| Smokey BBQ |</input><br><br>
+						<input type="checkbox" id="k" class = "menu-input" onclick = "menu()">| Korean |</input><br><br>
+						<input type="checkbox" id="wwasabi" class = "menu-input" onclick = "menu()">| Wicked Wasabi |</input><br><br>
+						<input type="checkbox" id="nt" class = "menu-input" onclick = "menu()">| Nagoya Tebaski |</input><br><br>
+						<input type="checkbox" id="wworld" class = "menu-input" onclick = "menu()">| Wings World |</input><br><br>
+					</th>
+				</table>
+			</div>
+		</td>
+		<td>
+			<div class="body-bar animate__animated animate__slideInDown">
+				<table class="body-surface">
+					<tr>
+						<td colspan="2">
+							<img class= "logo" src= "https://jobio-prd-s3.s3-ap-southeast-1.amazonaws.com/poster-photo/17457-19409-prd.jpg">
+						</td>
+					</tr>
+					<tr rowspan="2">
+						<td>
+							<img class= "imagepic animate__animated animate__tada" id = "imagepic" src = "https://i.pinimg.com/originals/ed/7c/09/ed7c090b40b93c5b9947813c3e72bec4.jpg"><br><br>
+							
+							<label><b>Size:</b></label><br>
+							<input type="radio" id="junior" name="size">Junior</input>
+							<input type="radio" id="regular" name="size">Regular</input><br><br>
+							
+							<label><b>Quantity:</b></label><br>
+							<input type="radio" id="HalfDozen" name="quanti">1/2 Dozen</input>
+							<input type="radio" id="OneDozen" name="quanti">1 Dozen</input><br><br><br>
+							
+							<button class = "button-design" onclick = "addButton()"><b>Add</b></button>   
+							<button class = "button-design" onclick = "clearButton()"><b>Clear</b></button>
+						</td>
+						<td class="Receipt">
+							<h1>YOUR RECEIPT<br>
+							<p id="ReceiptContent"></p>
+							<p>TOTAL AMOUNT: </p><p id="TotalAmount">0</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</td>
+	</table>	
+  </body>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+	@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+		body {
+			background-color: #000000;
+			margin: 0;
+			color: white;
+			align: center;
+		}
+		h1{
+			font-family: 'Goldman', cursive;
+			font-size: 30px;
+		}
+		a {
+			font-family: 'Goldman', cursive;
+			font-size: 20px;
+		}
+		button {
+			font-family: 'Goldman', cursive;
+			font-size: 15px;
+		}
+		radio{
+		  color: gray;
+		}
+		p{
+			font-size:12px;
+		}
+		.menu-bar{
+			background-color: #AC341B;
+			border-color: #FFFFFF;
+			border-style: dashed;
+			border-width: 2px;
+			height: 3000px;
+			width: 300px;
+		}
+		.menu {
+			vertical-align: top;
+			width: 300px;
+		}
+		.menu-button{
+			color: #FFFFFF;
+			background-color: Transparent;
+			background-repeat:no-repeat;
+			border: none;
+			cursor:pointer;
+		}
+		.body-bar{
+			text-align: center;
+			height: 3000px;
+			width: 1025px;
+		}
+		.body-surface {
+			text-align: center;
+			vertical-align: top;
+			width: 1025px;
+		}
+		.logo{
+			text-align: center;
+			height: 100px;
+			width: 350px;
+		}
+		.imagepic{
+			height: 250px;
+			width: 500px;
+		}
+		.button-design{
+			height:30px;
+			width: 100px;
+			color: brown;
+		}
+		.Receipt {
+			border-color: #FFFFFF;
+			border-style: dashed;
+		}
